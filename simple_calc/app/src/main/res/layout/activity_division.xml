@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#f473"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".DivisionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Division"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="Enter numbers do you want to subtract in the spaces below"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter a number"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/num2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter a number"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/divide_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF9E80"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Divide"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColorHighlight="#FFC280"
+            android:textColorLink="#FFC280"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/result_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/addition_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF9E80"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Addition"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColorHighlight="#FFC280"
+            android:textColorLink="#FFC280"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/subtraction_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF9E80"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Subtraction"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColorHighlight="#FFC280"
+            android:textColorLink="#FFC280"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/multiplication_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF9E80"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Multiplication"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColorHighlight="#FFC280"
+            android:textColorLink="#FFC280"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/division_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF9E80"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Division"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColorHighlight="#FFC280"
+            android:textColorLink="#FFC280"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9E80"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Back to Menu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColorHighlight="#FFC280"
+        android:textColorLink="#FFC280"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</LinearLayout>
