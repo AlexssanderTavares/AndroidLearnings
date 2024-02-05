@@ -14,8 +14,13 @@ class SplashScreenActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.beginButton.setOnClickListener {
+<<<<<<< HEAD
             val mainActivity = Intent(this, MainActivity::class.java)
             startActivity(mainActivity)
+=======
+            val menuActivity = Intent(this, MenuActivity::class.java)
+            startActivity(menuActivity)
+>>>>>>> New_Features
             finish()
         }
     }

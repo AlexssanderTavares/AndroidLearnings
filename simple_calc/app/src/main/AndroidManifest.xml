@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Simple_calc"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
+=======
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+>>>>>>> New_Features
             android:name=".DivisionActivity"
             android:exported="false" />
         <activity
@@ -29,7 +35,11 @@
             android:exported="false" />
         <activity
             android:name=".SplashScreenActivity"
+<<<<<<< HEAD
             android:exported="true" >
+=======
+            android:exported="true">
+>>>>>>> New_Features
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,9 +48,13 @@
         </activity>
         <activity
             android:name=".MainActivity"
+<<<<<<< HEAD
             android:exported="false">
 
         </activity>
+=======
+            android:exported="false"></activity>
+>>>>>>> New_Features
     </application>
 
 </manifest>
