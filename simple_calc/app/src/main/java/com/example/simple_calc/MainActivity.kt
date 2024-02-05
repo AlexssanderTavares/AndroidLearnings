@@ -81,5 +81,11 @@ class MainActivity : AppCompatActivity() {
                 binding.divisionResult.setText("")
             }
         }
+
+        binding.backToMainButton.setOnClickListener {
+            val menuActivity = Intent(this, MenuActivity::class.java)
+            startActivity(menuActivity)
+            finish()
+        }
     }
 }
